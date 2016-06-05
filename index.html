@@ -31,58 +31,19 @@
 								<h3>Databases for highway inventories</h3>
 								<h4>Proposal for a new model</h4>
 						</div>
-						<div style='margin-top: 20px;'>
-							<img src='img/road.jpg' width='550'/>
+						<p>Santiago Higuera de Frutos - María Castro Malpica</p>
+						<div style='margin-top: 1px;'>
+							<img src='img/road.jpg' width='350'/>
 						</div>
+						<p>Universidad Politécnica de Madrid</p>
 						<a href='http://shiguera.github.io/cit2016'>http://shiguera.github.io/cit2016</a>
 				</section>
-
-				<!-- BIO -->
-				<section>
-					<div style=''>
-		        <h4 style='float:left;'>María Castro Malpica</h4>
-		        <div style='float: right; width: 160px'>
-		          <img src="img/emptyphoto.jpg" style="float: right; width:140px"/>
-		        </div>
-		        <div style='float: left; width:800px'>
-		          <ul>
-		          	<li>Doctora Ingeniera de Caminos</li>
-		            <li>Profesora titular en <a href='https://twitter.com/caminosupm?lang=es'>@caminosupm</a></li>
-		            <li>Ingeniería civil:Transporte y territorio</li>
-		            <li><a href="http://www2.caminos.upm.es/Departamentos/matematicas/WEBGIE/">Research group: Highway engineering R & D</a></li>
-		          </ul>
-		        </div>
-	        </div>
-
-	        <hr style='clear: both'/>
-	        
-	        <div style=''>
-		        <h4 style='float:left;'>Santiago Higuera de Frutos</h4>
-		        <div style='float: right; width: 160px'>
-		          <img src="img/fotomia.jpg" style="float: right; width:140px"/>
-		        </div>
-		        <div style='float: left; width:800px; '>
-		          <ul>
-		            <li>Ingeniero de Caminos</li>
-		            <li>Profesor asociado en <a href='https://twitter.com/caminosupm?lang=es'>@caminosupm</a></li>
-		            <li>Matemáticas e Informatica</li>
-		            <li>Empresa: <a href="http://mercatorlab.com">Mercatorlab S.L.</a></li>
-		            <li><a href="http://www2.caminos.upm.es/Departamentos/matematicas/WEBGIE/">Pensamiento Matemático</a>
-	              <li><a href="http://osm.org">OpenStreetMap</a>
-	              <li><a href='mailto:santiago.higuera@upm.es'>santiago.higuera@upm.es</a></li>
-		          </ul>
-		        </div>
-	        </div>
-       		</section>
 
        	<!-- Highway inventory information levels -->
 				<section>
 					<h2>Inventory information levels</h2>
-					<ul>
-						<li>Geometry and Topology</li>
-						<li>Roadway characteristics</li>
-						<li>Highway elements</li>
-					</ul>
+					<p>Three levels of information considered in inventories</p>
+					<img src="img/informationlevels.png" style="height: 500px">
 				</section>
 
        	<!-- Two kind of data models -->
@@ -108,9 +69,9 @@
 					<h3>Statement of the problem</h3>
 					<ul>
 						<li><span style='font-weight: bold'>Different agents</span> are interested in highway inventories and each one has different needs (Administration authorities, design and construction companies, maintenance companies, emergency services)</li>
-						<li>There are <span style='font-weight: bold'> different kinds of roads</span> or paths (classic highways for cars, cyclists or pedestrian pathways, networks of forest roads, tourism uses)</li>
-						<li>Current Inventory software needs a <span style='font-weight: bold'>long and specialized training and design period</span>. This is a handicap in disaster response</li>
-						<li>Current softwares are <span style='font-weight: bold'>centered in one country</span> language and regulations</li>
+						<li><span style='font-weight: bold'> Different kinds of roads</span> or paths (classic highways for cars, cycling or pedestrian pathways, forestry roads, tourism uses)</li>
+						<li><span style='font-weight: bold'>Long and specialized training and design period</span> in current inventory software. This is a handicap in disaster response</li>
+						<li><span style='font-weight: bold'>Centered in one country</span> language and regulations</li>
 					</ul>
 				</section>
 				<section>
@@ -129,8 +90,8 @@
 				<h3>Geographic Information Components</h3>
 					<img src='img/esquema1.png' /><br/>
 					<ul>
-						<li>Spatial Component: Location and Geometry</li>
-						<li>Thematic Component: Nature and Characteristics</li>
+						<li><span style='font-weight: bold'>Spatial Component</span>: Location and Geometry</li>
+						<li><span style='font-weight: bold'>Thematic Component</span>: Nature and Characteristics</li>
 					</ul>
 					<hr>
 					<h5>And what about time as third component?</h5>
@@ -194,7 +155,7 @@
 				</section>
 
 				<section>
-					<h3>Lines</h3>
+					<h3>Lines - Ways</h3>
 					<div style='float:left; margin-right: 20px; margin-left: 160px'>
 						<img src="img/way.png" style='width: 200px;'><br/>					
 					</div>
@@ -224,12 +185,18 @@
 
 				<section>
 					<h3>Closed Lines - Areas</h3>
-					<p>If the first and last Node of a Line are the same node</p>
-					<ul>
-						<li>Closed Line</li>
-						<li>Area</li>
-					</ul>
-					<p>Tagging establishes the type of feature</p>
+					<div style="width: 500px; float: left; margin-right: 10px; margin-top: 40px">
+						<p>If the first and last Node of a Line are the same node</p>
+						<ul>
+							<li>Closed Line</li>
+							<li>Area</li>
+						</ul>
+						<p>Tagging establishes the type of feature</p>
+					</div>
+					<div style="width: 400px; float: right;">
+						<img src="img/closedline.png" width= "400">
+					</div>
+
 				</section>
 
 				<section>
@@ -267,12 +234,17 @@
 				<section>
 					<h3>Altitude</h3>
 					<div style=''>
-						<img src='img/dimension.png' style='height: 130px'/><br/>
+						<img src='img/dimension.png' style='height: 100px'/><br/>
 					</div>
-					<p>Altitude as thematic component</p>
-					<p>Altitude is a tag</p>
-					<p>This proposal is a 2.5 D model</p>
-					<ul>
+					<div style="float: left; width: 600px; margin-right: 10px">
+						<p>Altitude as thematic component</p>
+						<p>Altitude is a tag</p>
+						<p>This proposal is a 2.5 D model</p>						
+					</div>
+					<div style="float: right; width: 300px">
+						<img src="img/altitude.png" width="300">
+					</div>
+					<div style="clear: both"></div>
 					<p>Example:</p>
 <pre style='background-color: #eaeaea; color: #000010; margin-left: 50px; padding: 10px; font-weight: bold; font-family: "Lucida Console", Monaco, monospace'>
   &lt;node id="25496583" lat="51.5173639" lon="-0.140043"&gt;
@@ -283,13 +255,18 @@
 
 				<section>
 					<h3>Linear Referencing</h3>
-					<ul>
-						<li>ISO 19148: Geographic information — Linear referencing</li>
-						<li>Locating feature: Relation Route</li>
-						<li>Located features: Tagging</li>
-						<li>Time located: Tagging</li>
-					</ul>
-					<img src="img/relations.png">
+					<p>ISO 19148: Geographic information — Linear referencing</p>
+					<div style="float: left; width: 450px; margin-right: 10px; margin-top: 40px">
+						<ul>
+							<li>Locating feature: Route</li>
+							<li>Located features: Tagging</li>
+							<li>Dynamic segmentation</li>
+							<li>Time located: Tagging</li>
+						</ul>
+					</div>
+					<div style="float: right; width: 500px">
+						<img src="img/relations.png" width="400">					
+					</div>
 				</section>
 
 				<section>
