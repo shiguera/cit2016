@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <relation id="500">
+    <tag k="route" v="A-3"/>
+    <member type="line" id="123" role="1"/>
+    <member type="line" id="124" role="2"/>
+    <member type="line" id="125" role="2"/>
+  </relation>
+  <node id="200" lon="-3.4356725" lat="40.9878652">
+    <tag k="highway" v="pointEvent" />
+    <tag k="route" v="A-3" />
+    <tag k="station" v="5+0230" />
+    <tag k="name" v="traffic-sign" />
+    <tag k="description" v="crossing road" />
+    <tag k="code:es" v="P1" />
+  </node>
+  <relation id="201">
+    <tag k="highway" v="lineEvent" />
+    <tag k="route" v="A-3" />
+    <tag k="starting-station" v="5+0080" />
+    <tag k='ending-station' v='5+00170' />
+    <tag k='name' v='guard-rail' />
+  </relation>
+  <relation id="202">
+    <tag k="highway" v="lineAttribute" />
+    <tag k="route" v="A-3" />
+    <tag k="starting-station" v="5+0090" />
+    <tag k="ending-station" v="5+0190" />
+    <tag k='name' v='pavementState' />
+    <tag k='state' v='good' />
+  </relation>
+
+
+
+
